@@ -139,11 +139,7 @@ function Playlist() {
                 {toggleForPlayListInput ?
                     <div className="PlayListButton"
                         onClick={() => CreatePlaylist()}>
-                        <BsMusicNoteList
-                            color={"white"}
-                            size={15}
-                        />
-                        <h5  className="buttonContent">Create Playlist</h5>
+                        <h5  className="buttonContent">Create</h5>
                     </div> :
                     <div className="PlayListButton"
                         onClick={() => settoggleForPlayListInput(!toggleForPlayListInput)}>
